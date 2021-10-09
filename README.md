@@ -19,11 +19,11 @@ function Merge() merges the other_sequence.enzyme_acronym_ with the object’s
 enzyme_acronym_. The other_sequence object will not be affected.
 
 ## Thoughts
-Set up a constructor sequence_map. 
-Created public operations "bool operator", "friend ostream& operator", "void Merge"; 
+1. Set up a constructor sequence_map. 
+2. Created public operations "bool operator", "friend ostream& operator", "void Merge"; 
 and private "string recognition_sequence_", "vector<string> enzyme_acronyms_". 
-Threw an "UnderflowException" when there is an error. 
-Completed the method where removing x from the tree, and nothing happens when x is not found. 
+3. Threw an "UnderflowException" when there is an error. 
+4. Completed the method where removing x from the tree, and nothing happens when x is not found. 
 Print out the tree properly. 
 
 ## Run
